@@ -1,0 +1,152 @@
+/* Mengatur gaya umum untuk body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kontainer utama */
+.register-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 20px #0298fd(0, 0, 0, 0.1);
+    /* border-radius: 20px; */
+    overflow: hidden;
+}
+
+/* Bagian kiri - form login */
+.left-section {
+    background-color: #FBE28A; /* Warna oranye */
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kontainer login */
+/* Kontainer login di kiri tengah */
+.container-register {
+    color: rgb(0, 0, 0);
+    width: 90%; /* Atur lebar yang diinginkan */
+    margin-left: 0; /* Pastikan kontainer mulai dari kiri */
+    display: flex;
+    flex-direction: column; /* Atur tata letak secara kolom */
+    justify-content: center; /* Untuk vertikal tengah */
+    align-items: flex-start; /* Posisikan semua elemen di kiri */
+    height: 100%; /* Pastikan tingginya 100% untuk vertikal tengah */
+}
+
+
+
+.container-register h1 {
+    position: absolute; /* Menempatkan elemen secara absolut */
+    top: 10%; /* Memindahkan ke bagian atas */
+    left: 5%; /* Memindahkan ke bagian kiri */
+    margin: 0; /* Hilangkan margin jika ada */
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    width: 243px; /* Sesuaikan lebar agar tidak terlalu besar */
+    height: 19px;
+}
+
+
+.container-register label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+.container-register input[type="fullname"],
+.container-register input[type="username"]
+.container-register input[type="email"]
+.container-register input[type="text"],
+.container-register input[type="password"]
+.container-register[type="confirmpassword"],
+.container-register input {
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 14px;
+    outline: none;
+    text-indent: 20px;
+    box-sizing: border-box;
+    background-color: #FBE28A; /* Latar belakang oranye */
+    color: rgb(0, 0, 0); /* Warna teks putih */
+}
+
+.login-btn {
+    width: 200%;
+    padding: 10px;
+    background-color: #F58706;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Bagian bawah - teks */
+.container-register p {
+    color: rgb(0, 0, 0);
+    top: 83%;
+    left: 19%;
+}
+
+.container-register a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-register a:hover {
+    text-decoration: underline;
+}
+
+
+.right-section {
+    width: 30%;
+    right: 100px;
+    background-color: #181924;
+}
+/* Menambahkan posisi absolute untuk memindahkan gambar */
+img[alt="ramen"] {
+    position: absolute;
+    top: 20%; /* Jarak dari atas */
+    right: 190px; /* Menempel di kanan dengan jarak 20px */
+    width: 400px; /* Ukuran gambar */
+    height: auto;
+    background-color: transparent;
+}
+
+h1 {
+    position: absolute;
+    left: 23%; /* Jarak dari atas */
+    top: 25%;
+}
+p{
+    position: absolute;
+    left: 24%; /* Jarak dari atas */
+    top: 65%;
+
+}
+.container-register a {
+    color: #0e90e7; /* Warna biru untuk teks register */
+    font-weight: bold;
+    text-decoration: none;
+}
+

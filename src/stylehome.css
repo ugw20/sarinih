@@ -1,0 +1,225 @@
+/* Reset margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Atur font dasar untuk body */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #1a1a1a; /* Warna latar belakang navbar */
+  padding: 50px;
+}
+  
+
+.navbar ul {
+  list-style-type: none; /* Hilangkan bullet points */
+  display: flex; /* Gunakan flexbox */
+  justify-content: center;
+  align-items: center; /* Atur item agar sejajar secara vertikal */
+}
+
+.navbar ul li {
+  margin: 0 90px; /*jarak antara menu */
+}
+
+.navbar ul li a {
+  color: white; /* Warna teks navbar */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s; /* Transisi untuk efek hover */
+}
+
+.navbar ul li a:hover {
+  color: orange; /* Ubah warna saat hover */
+}
+
+.navbar ul li a.active{
+  color: #F58706; /* Warna teks navbar */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s; /* Transisi untuk efek hover */
+}
+
+/* Styling untuk tombol login */
+.navbar ul .login a {
+    background-color: #F58706; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    color : white; 
+    transition: background-color 0.3s;
+  }
+
+.navbar ul .login a:hover {
+  background-color: rgb(173, 113, 2);
+  color : white; 
+}
+
+/* top Section styling */
+.top {
+  background-color: #F8E5A5; /* Warna latar belakang */
+  text-align: justify;
+  padding: 100px 50px;
+
+}
+
+.top h1 {
+  text-align: center;
+  margin :10px 0;
+  max-width: 500px;
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+
+.black-text{
+  color: black;
+}
+.orange-text{
+  color: #F58706;
+}
+.top .p1, .p2{
+  font-family: 'Montserrat';
+  margin: 20px 0;
+  font-size: 20px;
+  max-width: 500px;
+  color: black;
+}
+.top .p2{
+  font-weight: bold;
+}
+
+.button-about {
+  position: absolute;
+  top :87%;
+  display: inline-block;
+  background-color: #d48700; /* Warna tombol */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 100px;
+  transition: background-color 0.3s;
+}
+
+.button-about:hover {
+  background-color: rgb(173, 113, 2); /* Warna tombol saat hover */
+}
+
+
+/* gambar angkringan */
+  img[alt="angkringan"] {
+  position: absolute;
+  top: 20%; /* Jarak dari atas */
+  right: 190px; /* Menempel di kanan dengan jarak 20px */
+  width: 440px; /* Ukuran gambar */
+  height: auto;
+  background-color: transparent;
+}
+/*mid*/
+.mid{
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: space-around; /* Atur jarak di antara elemen */
+  align-items: center;
+  margin: 50px 0; 
+}
+
+.circle-item{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.circle1, .circle2, .circle3{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #d48700; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px; 
+}
+
+.circle1 img, .circle2 img, .circle3 img {
+  width: 60%; 
+  height: auto;
+}
+
+.circle-item p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-left: 10px; 
+}
+
+.story-container {
+  display: flex; /* Mengatur elemen menjadi berjejer secara horizontal */
+  align-items: center; /* Menjaga agar gambar dan teks sejajar secara vertikal */
+  margin: 20px; /* Jarak sekitar kontainer */
+}
+
+img[alt="angkringan2"] {
+  width: 400px; 
+  height: auto; 
+  border-radius: 8px; 
+  margin-left: 150px;
+}
+
+img[alt="vektor"] {
+  width: 30px; 
+  height: auto; 
+  margin-right: 110px; 
+  margin-left: 50px;
+}
+
+.text1 {
+  max-width: 500px; /* Maksimal lebar untuk teks */
+  font-family:'Montserrat';;
+}
+
+/* judul the story*/
+.text1 .left {
+  text-align: justify;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+/* judul 2022*/
+.text1 .center {
+  text-align: center;
+  font-size: 50px; 
+  font-weight: bold; 
+  color: black;
+  margin-left: 100px;
+}
+
+/* Deskripsi untuk The Story*/
+.text1 .left2 {
+  text-align: justify;
+  font-size: 20px; 
+  color: #555; 
+  line-height: 1.5; 
+  margin-bottom: 20px;
+}
+
+/* Deskripsi untuk2022 */
+.text1 .center2 {
+  text-align: center; 
+  font-size: 20px; 
+  color: #555; 
+  line-height: 1.5; 
+  margin-left: 100px;
+}
